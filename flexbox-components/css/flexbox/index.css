@@ -6,6 +6,7 @@
 @import './justify-content.css';
 @import './space-between.css';
 @import './align-items.css';
+
 :root {
     --darkColor: #04001e;
     --lightColor: #DFFBFF;
