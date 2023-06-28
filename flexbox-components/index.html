@@ -29,29 +29,259 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
-    <div class="playlistB">
-        <div class="playlistB-cover">
-            <img src="./images/grand-escape.webp" width="76" height="76" alt="Cover de la playlist Paquetaxo">
-        </div>
-        <div class="playlistB-details">
-            <h3 class="playlistB-title">Dragon ball Openins & Endings</h3>
-            <div class="playlistB-control">
-                <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Dragon ball Openins & Endings" aria-label="Reproducir la lista de reproducción Dragon ball Openins & Endings">
-                    <i class="icon-play" aria-hidden="true"></i>
+    <div class="sticky">
+        <header class="header" aria-label="Barra superior y menú del usuario">
+            <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                </button>
+            </div>
+            <form class="search" action="search" role="search" aria-label="Buscar por Artistas, canciones o podcast">
+                <i class="icon-search" aria-hidden="true"></i>
+                <input type="search" placeholder="Buscar Artistas, Canciones o Podcast">
+            </form>
+        </header>
+    </div>
+    <section class="playlistList" aria-labelledby="region1">
+        <div class="playlistList-top">
+            <h2 class="playlistList-title" id="region1">Buenas noches</h2>
+            <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
-    </div>
-    <div class="playlistA">
-        <div class="playlistA-cover">
-            <img src="./images/pokemon-latino.webp" width="150" height="150" alt="Cover de la playlist Anime Latino">
-            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-                <i class="icon-play" aria-hidden="true"></i>
-            </button>
+        <div class="playlistList-container">
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/AnimeLatino.jpg" width="76" height="76" alt="Anime Latino Mejores Canciones">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Los Mejores Temas de Anime en Español</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Los Mejores Temas de Anime en Español" aria-label="Reproducir la lista de reproducción Los Mejores Temas de Anime en Español">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/Queen.jpg" width="76" height="76" alt="Album Queen Of the World">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Album de Queen News Of The World</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Album de Queen News Of The World" aria-label="Reproducir la lista de reproducción Album de Queen News Of The World">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/transformers.jpg" width="76" height="76" alt="Soundtrack Official Transformers">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Soundtrack Official Transformers</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Soundtrack Official Transformers" aria-label="Reproducir la lista de reproducción Soundtrack Official Transformers">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/nightwish.jpg" width="76" height="76" alt="Discografía Nightwish End of An Era">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Nightwish End of An Era</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Discografía Nightwish End of An Era" aria-label="Reproducir la lista de reproducción Discografía Nightwish End of An Era">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/ValentinElizalde.jpg" width="76" height="76" alt="Grandes Éxitos de Valentín Elizalde">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Grandes Éxitos de Valentín Elizalde</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Grandes Éxitos de Valentín Elizalde" aria-label="Reproducir la lista de reproducción Grandes Éxitos de Valentín Elizalde">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/AmericanAuthors.jpg" width="76" height="76" alt="Playlist This is Gonna Be the Best Day of my Life">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">This is Gonna Be the Best Day of my Life Mix</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Playlist This is Gonna Be the Best Day of my Life" aria-label="Reproducir la lista de reproducción Playlist This is Gonna Be the Best Day of my Life">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/PauloCuevas.jpg" width="76" height="76" alt="Mejores Covers de Paulo Cuevas">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Mejores Covers de Paulo Cuevas</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Mejores Covers de Paulo Cuevas" aria-label="Reproducir la lista de reproducción Mejores Covers de Paulo Cuevas">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/linkinpark.jpg" width="76" height="76" alt="Lista de reproducción Linkin Park Radio 24/7">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Linkin Park Radio 24/7</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Linkin Park Radio 24/7" aria-label="Reproducir la lista de reproducción Linkin Park Radio 24/7">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlistB">
+                <div class="playlistB-cover">
+                    <img src="./images/RickAstley.jpg" width="76" height="76" alt="Playlist Mejores Canciones para Trollear Rankeds">
+                </div>
+                <div class="playlistB-details">
+                    <h3 class="playlistB-title">Mejores Canciones para Trollear Rankeds</h3>
+                    <div class="playlistB-control">
+                        <button class="buttonIcon is-primary" title="Reproducir la lista de reproducción Mejores Canciones para Trollear Rankeds" aria-label="Reproducir la lista de reproducción Mejores Canciones para Trollear Rankeds">
+                            <i class="icon-play" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h3 class="playlistA-title">Anime Latino</h3>
-        <h4 class="playlistA-description">Saint Seiya, Chala-HeadChala, Equipo Rocket</h4>
-    </div>
+    </section>
+    <section class="playlistList" aria-labelledby="region2">
+        <div class="playlistList-top">
+            <h2 class="playlistList-title" id="region2">Escuchado recientemente</h2>
+            <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <div class="playlistList-container">
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/pokemon-latino.webp" width="150" height="150" alt="Cover de la playlist Anime Latino">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Cover de la playlist Anime Latino" title="Reproducir Cover de la playlist Anime Latino">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Anime Latino</h3>
+                <h4 class="playlistA-description">Saint Seiya, Chala-HeadChala, Equipo Rocket</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/duhast-ramstein.jpg" width="150" height="150" alt="Éxitos de Ramstein Du Hast">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Éxitos de Ramstein Du Hast" title="Reproducir Éxitos de Ramstein Du Hast">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Ramstein Éxitos</h3>
+                <h4 class="playlistA-description">Du Hast, Sonne, Deutshchland, Engel, Dicke Titten, Ich will, Feuer freí!</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/Moderatto.jpg" width="150" height="150" alt="Playlist Grandes Éxitos de Moderatto">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Grandes Éxitos de Moderatto" title="Reproducir Grandes Éxitos de Moderatto">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Grandes Éxitos de Moderatto</h3>
+                <h4 class="playlistA-description">Quemandome de amor, Ya lo veía venir, Sentimettal</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/Shakira.jpg" width="150" height="150" alt="Playlist Shakira Greatest Hits">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Playlist Shakira Greatest Hits" title="Reproducir Playlist Shakira Greatest Hits">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Shakira Greatest Hits</h3>
+                <h4 class="playlistA-description">Te dejo Madrid, Si Te Vas, Ciega Sordomuda</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/metallica.jpg" width="150" height="150" alt="Playlist Metallica">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Playlist Metallica" title="Reproducir Playlist Metallica">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Metallica Mix</h3>
+                <h4 class="playlistA-description">The unforgiven, Hardwired, Master of Puppets</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/robinwilliams-feel.jpg" width="150" height="150" alt="Robiie Williams playlist">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Robiie Williams playlist" title="Reproducir Robiie Williams playlist">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Robiie Williams Live</h3>
+                <h4 class="playlistA-description">Feel, Rock Dj, Candy, Angels</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/hoshinogen.jpg" width="150" height="150" alt="Gen Hoshino Pop Virus">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Gen Hoshino Pop Virus" title="Reproducir Gen Hoshino Pop Virus">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Pop Virus Album</h3>
+                <h4 class="playlistA-description">Pop Virus, Idea, Koi, Get a Feel, Hada, Pair Dancer, Present, KIDS</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/aerosmith.jpg" width="150" height="150" alt="Just Push Play Album por Aerosmith">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Just Push Play Album por Aerosmith" title="Reproducir Just Push Play Album por Aerosmith">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Just Push Play Album</h3>
+                <h4 class="playlistA-description">Just Push Play, Jaded, Fly Away From Here, Sunshine</h4>
+            </div>
+            <div class="playlistA">
+                <div class="playlistA-cover">
+                    <img src="./images/mana.jpg" width="150" height="150" alt="Album del grupo musical Maná">
+                    <button class="buttonIcon is-primary" aria-label="Reproducir Album del grupo musical Maná" title="Reproducir Album del grupo musical Maná">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <h3 class="playlistA-title">Maná Six Pack</h3>
+                <h4 class="playlistA-description">Rayando el sol, El Reloj Cucú, Oye mi amor, Te lloré un río, Vivir sin aire</h4>
+            </div>
+        </div>
+    </section>
     <div class="sidebar">
         <header class="logo">
             <a href="/" aria-current="page">

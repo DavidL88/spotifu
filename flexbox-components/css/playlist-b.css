@@ -20,8 +20,8 @@
 
 .playlistB-cover img {
     vertical-align: middle;
-    inline-size: 100%;
-    block-size: auto;
+    inline-size: 5.5rem;
+    block-size: 5.5rem;
 }
 
 .playlistB-title {
