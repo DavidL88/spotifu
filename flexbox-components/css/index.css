@@ -6,16 +6,12 @@
 @import './sidebar.css';
 @import './elipsis.css';
 @import './player.css';
-@import './playlist-a.css';
-@import './playlist-b.css';
-@import './playlist-list.css';
-@import './search.css';
-@import './navigation.css';
-@import './header.css';
-@import './sticky.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
 
 :root {
-    font-size: 16px;
+    font-size: 14px;
     --primary: #00B050;
     --white: #FFFFFF;
     --gray10: #B3B3B3;
@@ -35,4 +31,16 @@
 
 ::selection {
     background: none;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    :root {
+        font-size: 18px;
+    }
 }
